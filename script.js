@@ -26,19 +26,19 @@ function criaCartao(categoria, pergunta, resposta) {
   container.appendChild(article);
 }
 criaCartao(
-  'História',
-  'Quem descobriu o Brasil?',
-  'Pedro Álvares Cabral.'
+  'Tecnologia',
+  'O que é um algoritmo?',
+  'É uma sequência de passos para resolver um problema.'
 );
 
 criaCartao(
-  'Ciências',
-  'Qual planeta é conhecido como Planeta Vermelho?',
-  'Marte.'
+  'Cinema',
+  'Quem dirigiu o filme "Titanic"?',
+  'James Cameron.'
 );
 
 criaCartao(
-  'Matemática',
-  'Qual o resultado de 9 + 6?',
-  '9 + 6 = 15.'
+  'Literatura',
+  'Quem escreveu "Dom Casmurro"?',
+  'Machado de Assis.'
 );
