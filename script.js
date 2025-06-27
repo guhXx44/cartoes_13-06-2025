@@ -1,3 +1,4 @@
+// Função que cria um cartão interativo
 function criaCartao(categoria, pergunta, resposta) {
   const container = document.getElementById('container');
 
@@ -25,6 +26,8 @@ function criaCartao(categoria, pergunta, resposta) {
 
   container.appendChild(article);
 }
+
+// Cartões criados diretamente aqui
 criaCartao(
   'Tecnologia',
   'O que é um algoritmo?',
