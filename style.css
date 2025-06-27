@@ -1,19 +1,26 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #121212;
+  color: #ffffff;
   padding: 4rem;
+  margin: 0;
+}
+
+h1, p {
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 #container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 3rem;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .cartao {
-  width: 200px;
-  height: 200px;
+  width: 220px;
+  height: 220px;
   perspective: 1000px;
   cursor: pointer;
 }
@@ -37,17 +44,20 @@ body {
   height: 100%;
   backface-visibility: hidden;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  border: 1px solid #ccc;
   border-radius: 10px;
   padding: 1rem;
   box-sizing: border-box;
-  background-color: white;
+  background: #1e1e1e;
+  border: 2px solid #333;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.6);
 }
 
 .cartao__verso {
   transform: rotateY(180deg);
-  background-color: #dfe6e9;
+  background: #2a2a2a;
 }
